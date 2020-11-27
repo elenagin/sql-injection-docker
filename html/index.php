@@ -6,7 +6,7 @@
   <title>SQL Injection</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color:#152238;">
 <br>
   <div class = "container">
     <div class="jumbotron">
@@ -24,8 +24,8 @@
   <br>
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
-    <br>
-    <label for="psw"><b>Password</b></label>
+    <br><br>
+    <label for="psw"><b>Password </b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
     <br><br>
     <button type="submit">Login</button>
@@ -36,7 +36,7 @@
     <br>
     <br>
     <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
+    <span class="psw">Forgot <a href="">password?</a></span>
     <br><br>
   </div>
   </div>
