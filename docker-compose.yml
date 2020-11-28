@@ -3,7 +3,7 @@ services:
   mysql:
     container_name: mysql
     restart: always
-    image: mysql:5.7
+    image: elenagin/my_sql:firsttry
     environment:
       MYSQL_ROOT_PASSWORD: 'blindinglights'
     ports:
@@ -15,8 +15,11 @@ services:
   php:
     container_name: php
     restart: always
-    image: ualmtorres/phalcon-apache-ubuntu
+    image: elenagin/php:firsttry
     ports:
       - "80:80"
     volumes:
       - ./html:/var/www/html
+
+
+
